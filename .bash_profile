@@ -2,6 +2,8 @@ if [ -f /opt/local/etc/bash_completion ]; then
    . /opt/local/etc/bash_completion
 fi
 
+set -o vi
+
 alias ll='ls -l'
 alias top='top -o cpu -O +rsize -s 5 -n 20'
 
