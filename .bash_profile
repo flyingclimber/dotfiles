@@ -3,6 +3,8 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 set -o vi
+# ^l clear screen
+bind -m vi-insert "\C-l":clear-screen
 
 alias ll='ls -l'
 alias top='top -o cpu -O +rsize -s 5 -n 20'
