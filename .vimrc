@@ -8,6 +8,7 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 set laststatus=2
+set paste
 
 " matches 
 set showmatch
@@ -26,3 +27,7 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
+
+set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
+
+imap <c-c> <esc>
