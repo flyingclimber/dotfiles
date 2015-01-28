@@ -20,7 +20,7 @@ nmap <silent> <c-n> :NERDTreeToggle<CR>
 set guioptions-=r
 set go-=L
 set guioptions=egmrt
-colorscheme slate
+colorscheme blue
 
 " disable arrow keys
 map <up> <nop>
@@ -31,3 +31,7 @@ map <right> <nop>
 set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
 
 imap <c-c> <esc>
+imap <c-s> <c-o><c-s><CR>
+
+let javaScript_fold=1
+

@@ -1,3 +1,9 @@
 *.DS_Store
 *.netrwhist
-*swp
+*.swp
+bin/
+gen/
+node_modules/
+*.rom
+*.sav
+*.pyc

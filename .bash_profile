@@ -18,6 +18,5 @@ export GREP_COLOR='1;31'
 export GREP_OPTIONS='--color=auto -s'
 
 # MacPorts Installer addition on 2009-09-23_at_14:29:29: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
+export PATH=/us/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/share/npm/bin:$PATH
+export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH
